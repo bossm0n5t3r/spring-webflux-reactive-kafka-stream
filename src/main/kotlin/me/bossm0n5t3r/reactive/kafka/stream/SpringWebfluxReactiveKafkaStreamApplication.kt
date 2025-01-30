@@ -1,4 +1,4 @@
-package me.bossm0n5t3r.reactivekafkastream
+package me.bossm0n5t3r.reactive.kafka.stream
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
