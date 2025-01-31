@@ -35,6 +35,8 @@ dependencies {
     testImplementation(libs.kotlin.test.junit5)
     testRuntimeOnly(libs.junit.platform.launcher)
     testImplementation(libs.testcontainers.junit.jupiter)
+    testImplementation(libs.testcontainers.kafka)
+    testImplementation(libs.testcontainers.clickhouse)
 }
 
 kotlin {

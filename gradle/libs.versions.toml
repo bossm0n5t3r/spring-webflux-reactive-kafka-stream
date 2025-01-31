@@ -28,6 +28,8 @@ reactor-test = { module = "io.projectreactor:reactor-test", version.ref = "proje
 kotlin-test-junit5 = { module = "org.jetbrains.kotlin:kotlin-test-junit5", version.ref = "kotlin-version" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform-launcher-version" }
 testcontainers-junit-jupiter = { module = "org.testcontainers:junit-jupiter", version.ref = "testcontainers-version" }
+testcontainers-kafka = { module = "org.testcontainers:kafka", version.ref = "testcontainers-version" }
+testcontainers-clickhouse = { module = "org.testcontainers:clickhouse", version.ref = "testcontainers-version" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin-version" }
