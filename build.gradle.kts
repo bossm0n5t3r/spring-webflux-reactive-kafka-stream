@@ -28,6 +28,7 @@ dependencies {
     implementation(platform(libs.spring.cloud.bom))
     implementation(libs.spring.cloud.starter.stream.kafka)
     implementation(libs.spring.cloud.stream.binder.kafka.reactive)
+    implementation(libs.spring.cloud.function.kotlin)
     implementation(libs.clickhouse.r2dbc)
 
     testImplementation(libs.spring.boot.starter.test)

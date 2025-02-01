@@ -21,6 +21,7 @@ kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 spring-cloud-bom = { module = "org.springframework.cloud:spring-cloud-dependencies", version.ref = "spring-cloud-version" }
 spring-cloud-starter-stream-kafka = { module = "org.springframework.cloud:spring-cloud-starter-stream-kafka" }
 spring-cloud-stream-binder-kafka-reactive = { module = "org.springframework.cloud:spring-cloud-stream-binder-kafka-reactive" }
+spring-cloud-function-kotlin = { module = "org.springframework.cloud:spring-cloud-function-kotlin" }
 clickhouse-r2dbc = { module = "com.clickhouse:clickhouse-r2dbc", version.ref = "clickhouse-r2dbc-version" }
 
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "spring-boot-version" }
