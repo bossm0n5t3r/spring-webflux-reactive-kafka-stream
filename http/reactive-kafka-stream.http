@@ -1,0 +1,3 @@
+### Produce a message
+
+POST http://localhost:8080/stock-prices-in?count=10
